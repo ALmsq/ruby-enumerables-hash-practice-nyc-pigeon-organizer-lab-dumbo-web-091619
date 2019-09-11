@@ -7,5 +7,12 @@ def nyc_pigeon_organizer(data)
     }
   }
   
+  data.each {|key, value|
+    data[key].each {|attribute, name|
+      name.each {||
+        
+      }
+    }
+  }
   sorted_hash
 end
