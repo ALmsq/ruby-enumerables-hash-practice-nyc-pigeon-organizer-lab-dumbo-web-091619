@@ -12,7 +12,8 @@ def nyc_pigeon_organizer(data)
       name.each {|bird_name|
         sorted_hash.keys.each {|item|
           if bird_name === item
-            sorted.
+            sorted_hash[item][key] << attribute.to_s
+          end
         }
       }
     }
